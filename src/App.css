@@ -1,0 +1,52 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.container {
+  display: flex;
+  align-items: center; /* Align items at the center */
+  justify-content: center; /* Center the content */
+  gap: 40px; /* Reduce space between boxes for better alignment */
+  padding-top: 10px;
+}
+
+.box {
+  width: 850px; /* Make both boxes equal in width */
+  height: 600px; /* Keep height consistent */
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.image-container img{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.text-box{
+  display: flex;
+}
+
+.text-box textarea{
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: transparent;
+  resize: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
